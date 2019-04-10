@@ -16,12 +16,21 @@
 <script>
 import PasswordPage from './components/PasswordResult.vue';
 import Settings from './components/Settings.vue';
+import { mapMutations } from 'vuex';
 
 export default {
   name: 'app',
   components: {
     PasswordPage,
     Settings
+  },
+  methods:
+  {
+    ...mapMutations(['generatePassword'])
+  },
+  beforeMount()
+  {
+    this.generatePassword();
   }
 }
 </script>
