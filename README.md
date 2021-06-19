@@ -2,7 +2,7 @@
 
 > A fancy password generator that generates fancy passwords.
 
-[See the example](https://gcavus.github.io/password-generator/dist/)
+[See the example](https://gokhancvs.github.io/password-generator/dist/)
 
 ## Project setup
 ```
